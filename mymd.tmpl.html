@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Doccaico Diary</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no,email=no,address=no">
+    <link rel="canonical" href="">
+    <link rel="icon" href="favicon.ico">
+    <style type="text/css">
+.container {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h5 {
+  color: #2020ed;
+}
+h6 {
+  color: #6d6c6c;
+  margin-left: 10px;
+}
+h6::before {
+  content: "\00BB";
+  color: #009cfe;
+}
+.links {
+  text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    {{ . }}
+    <div class="links"><a href="https://doccaico.github.io/diary/links/">- Links -</a></div>
+    </div>
+  </body>
+</html>
